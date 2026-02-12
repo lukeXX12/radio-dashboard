@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Live Radio Activity Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>📡 Live Radio Activity Dashboard</h1>
+      <p>Updated every minute</p>
+    </header>
+
+    <section class="kpis">
+      <div class="card">
+        <h2 id="active15">–</h2>
+        <span>Active stations (15 min)</span>
+      </div>
+    </section>
+
+    <section class="charts">
+      <div class="chart-card">
+        <h3>Activity by Band</h3>
+        <canvas id="bandChart"></canvas>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>

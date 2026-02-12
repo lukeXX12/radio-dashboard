@@ -1,0 +1,17 @@
+{
+  "active_last_15_min": 46,
+  "spots_by_band": [
+    {
+      "band": "UHF",
+      "count": 18
+    },
+    {
+      "band": "VHF",
+      "count": 16
+    },
+    {
+      "band": "HF",
+      "count": 12
+    }
+  ]
+}
